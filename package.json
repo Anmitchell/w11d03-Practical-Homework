@@ -1,0 +1,30 @@
+{
+  "name": "practical_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "load": "artillery run artillery.yml"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "artillery": "^1.7.9",
+    "jest": "^29.5.0",
+    "mongodb-memory-server": "^8.13.0",
+    "supertest": "^6.3.3"
+  }
+}

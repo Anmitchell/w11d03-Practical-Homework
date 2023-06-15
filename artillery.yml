@@ -1,0 +1,20 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 30
+      arrivalRate: 10
+
+scenarios:
+  - name: "Testing Routes"
+    flow:
+      - post:
+          url: "/todos"
+          json:
+            title: 'Task1'
+            description: 'Test Task1'
+            complete: true
+            created_at: '2023-06-15'
+      - get:
+          url: "/todos"
+
+      
