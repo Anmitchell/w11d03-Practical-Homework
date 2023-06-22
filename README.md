@@ -1,6 +1,6 @@
 # **Todo-list-APP**
 ## **A Todo list API**
-### **Description:** Developed a Todo List API that allows users to quickly and easily add, delete, and update events and tasks. Users can stay organized by managing their tasks and events. App was built in javascript using Node.js, Express, Mongoose, and Morgan. Tested API using Jest and Supertest and handling server load with Artillery.
+### Description: Developed a Todo List API that allows users to quickly and easily add, delete, and update events and tasks. Users can stay organized by managing their tasks and events. App was built in javascript using Node.js, Express, Mongoose, and Morgan. Tested API using Jest and Supertest and handling server load with Artillery.
 ### **How to run and test API**:
 Run server:
 ```
